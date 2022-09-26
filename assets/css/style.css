@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "federation classic";
+    src: url(../fonts/federation\ classic.TTF);
+}
+
+@font-face {
+    font-family: "voyager";
+    src: url(../fonts/voyager.ttf)
+}
+
+header h1 {
+    font-family: "federation classic";
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "voyager";
+}
+
+h3 {
+    font-family: "voyager";
+}
+
+header nav {
+    font-family: "voyager";
+}
+
+/* Style für den Header */
+h1 {
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    border: double black;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+
+}
+
+header li {
+    list-style: none;
+    padding: 5px;
+}
+
+#Kommando {
+    width: 25%;
+    display: 1;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+#Technik {
+    width: 25%;
+    display: 2;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+#Medizin {
+    width: 25%;
+    display: 3;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+/* Style für den main */
+main {
+    padding: 10px;
+}
+
+.ueberschrift {
+    text-decoration: wavy;
+}
+
+main h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+main section ul li {
+    font-family: "voyager";
+    background-color: grey;
+    max-width: 300px;
+}
+
+/* Bereich Medizin/Wissenschaft */
+/* Das Bild und der Text wollen nicht nebeneinander. Wieso nicht? */
+main div {
+    display: inline;
+    padding: 10px;
+}
+
+main div .Bild1 {
+    display: 1;
+    width: "251";
+    height: "274";
+}
+
+main div .Text1 {
+    display: 2;
+}
+
+/* Style für den footer */
+
+
+/* Fun fotos https://www.google.com/url?sa=i&url=https%3A%2F%2Fstar-trek-tafelrunde.blogspot.com%2F2015%2F09%2Fspitze-ohren-schulterpolster-und-ninja.html&psig=AOvVaw2H7dDOlu_kj2tGnIGZchhS&ust=1664300853485000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNC7nfuBs_oCFQAAAAAdAAAAABAE */
