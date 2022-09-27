@@ -78,7 +78,27 @@ main {
 }
 
 .ueberschrift {
-    text-decoration: wavy;
+    text-decoration-style: double;
+}
+
+main article {
+
+    display: inline;
+    width: 300px;
+    color: black;
+    border: 2px dotted black;
+    padding: 2vw;
+    /* margin-top: 10px; */
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* padding-left: 10px;
+    padding-bottom: 10px; */
+    ;
+}
+
+main article section ul {
+    width: 150px;
+    padding-left: 20px;
 }
 
 main h2 {
