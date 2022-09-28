@@ -35,20 +35,20 @@ header nav {
 /* Style für den Header */
 h1 {
     padding: 30px;
-    margin: 10px;
+    margin: 2%;
     text-align: center;
     border: double black;
 }
 
 nav {
     display: flex;
-    padding: 10px;
-
+    /* padding: 10px; */
+    margin: 2%;
 }
 
 header li {
     list-style: none;
-    padding: 5px;
+    padding: 2px;
 }
 
 #Kommando {
@@ -74,7 +74,7 @@ header li {
 
 /* Style für den main */
 main {
-    padding: 10px;
+    padding: 2%;
 }
 
 .ueberschrift {
@@ -110,11 +110,11 @@ main h2 {
 main section ul li {
     font-family: "voyager";
     background-color: grey;
-    max-width: 300px;
+    width: 250px;
 }
 
 /* Bereich Medizin/Wissenschaft */
-/* Das Bild und der Text wollen nicht nebeneinander. Wieso nicht? */
+
 main div {
     display: inline;
     padding: 10px;
@@ -122,12 +122,16 @@ main div {
 
 main div .Bild1 {
     display: 1;
-    width: "251";
-    height: "274";
+    width: 80vw;
 }
 
 main div .Text1 {
     display: 2;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 /* Style für den footer */
